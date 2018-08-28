@@ -15,7 +15,7 @@ USER root
 ADD . /tmp/build/
 RUN /tmp/build/build.sh
 
-EXPOSE 80
+EXPOSE 65
 
 # Start the fcgi and web servers.
 CMD ["/usr/local/bin/run.sh"]
